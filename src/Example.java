@@ -28,13 +28,13 @@ public class Example {
 					Instances train=null, test=null, all=null;
 					FileReader r;
 					try{		
-						r= new FileReader("Sony_TRAIN.arff"); 
+						r= new FileReader("datasets/Sony_TRAIN.arff"); 
 						train = new Instances(r); 
 						train.setClassIndex(0);
-						r = new FileReader("Sony_TEST.arff"); 
+						r = new FileReader("datasets/Sony_TEST.arff"); 
 					    test = new Instances(r);
 						test.setClassIndex(0);
-						r = new FileReader("Sony_ALL.arff"); 
+						r = new FileReader("datasets/Sony_ALL.arff"); 
 					    all = new Instances(r);
 						all.setClassIndex(0);
 			                        
@@ -47,7 +47,7 @@ public class Example {
 					}
 					
 					
-					
+					System.out.println("This is a fix project test!");
 
 					
 					ArrayList<Instances> datasets = new ArrayList<Instances>();
