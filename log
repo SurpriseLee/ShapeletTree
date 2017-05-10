@@ -1,0 +1,16 @@
+level:0,
+Num of Instances from 0 dataset:20
+Num of Instances from 1 dataset:20
+--> 1.Find the best shapelet to split the data!
+-->2. split the data using the shapelet and create new data setsleft size under level 0: 14
+left size under level 0: 14
+level:1,
+Num of Instances from 0 dataset:14
+Num of Instances from 1 dataset:14
+FOUND LEAF --> class decision here: 1.0
+right size under level 0: 6
+right size under level 0: 6
+level:1,
+Num of Instances from 0 dataset:6
+Num of Instances from 1 dataset:6
+FOUND LEAF --> class decision here: 0.0
