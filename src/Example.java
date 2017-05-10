@@ -45,11 +45,7 @@ public class Example {
 						System.out.println("Unable to load data. Exception thrown ="+e);
 						System.exit(0);
 					}
-					
-					
-					System.out.println("This is a fix project test!");
-
-					
+										
 					ArrayList<Instances> datasets = new ArrayList<Instances>();
 					datasets.add(train);
 
